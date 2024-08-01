@@ -1,7 +1,7 @@
 # KRLS
 [![Travis-CI Build Status](https://travis-ci.org/lukesonnet/KRLS.svg?branch=master)](https://travis-ci.org/lukesonnet/KRLS) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/lukesonnet/KRLS?branch=master&svg=true)](https://ci.appveyor.com/project/lukesonnet/KRLS) [![Coverage Status](https://coveralls.io/repos/github/lukesonnet/KRLS/badge.svg?branch=master)](https://coveralls.io/github/lukesonnet/KRLS?branch=master)
 
-Note: this is a package forked from the original KRLS2 package, edited with minor fixes by Xinkun Nie and further modified by Paweł Morzywołek to remove the pre-scaling of the data in the function krls2.R. The version number has been updated to 1.1.1. 
+Note: this is a package forked from the original KRLS2 package, edited with minor fixes by Xinkun Nie and further modified by Paweł Morzywołek to remove the pre-scaling of the data in the function krls2.R. The version number has been updated to 1.1.2. 
 This package provides methods for fitting flexible functional forms for continuous and binary outcomes. 
 
 ### Install latest version

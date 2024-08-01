@@ -1,7 +1,7 @@
 Package: KRLS2
 Type: Package
 Title: Kernel-based Regularized Least squares
-Version: 1.1.2
+Version: 1.1.1
 Date: 2018-02-08
 Author: Jens Hainmueller (Stanford) Chad Hazlett (UCLA) Luke Sonnet (UCLA) (forked by Xinkun Nie with minor changes, further forked by Paweł Morzywołek to remove the pre-scaling of the data in the function krls2.R)
 Maintainer: Jens Hainmueller <jhain@stanford.edu> 

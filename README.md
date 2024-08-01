@@ -18,7 +18,7 @@ This version uses `Rcpp` extensively for speed reasons. These means you need to 
 #### Windows
 If you are on Windows, you will need to install [RTools](https://cran.r-project.org/bin/windows/Rtools/) if you haven't already. If you still are having difficulty with installing and it says that the compilation failed, try installing it without support for multiple architectures:
 ```R
-devtools::install_github('xnie/KRLS', args=c('--no-multiarch'))
+devtools::install_github('pmorzywolek/KRLS', args=c('--no-multiarch'))
 ```
 
 #### Mac OSX

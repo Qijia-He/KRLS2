@@ -178,12 +178,12 @@ krls <- function(# Data arguments
   if (any(X.init.sd == 0)) {
     stop("at least one column (", which(X.init.sd == 0) ,") in X is a constant, please remove the constant(s)")
   }
-  X <- scale(X, center = TRUE, scale = X.init.sd)
+  #X <- scale(X, center = TRUE, scale = X.init.sd) PM: I have removed scaling of the data.
 
   if (loss == "leastsquares") {
     y.init.sd <- apply(y.init, 2, sd)
     y.init.mean <- mean(y.init)
-    y <- scale(y, center=y.init.mean, scale=y.init.sd)
+    #y <- scale(y, center=y.init.mean, scale=y.init.sd) PM: I have removed scaling of the data.
 
   } else if (loss == "logistic") {
     if (!all(y %in% c(0,1))) {
@@ -378,7 +378,7 @@ krls <- function(# Data arguments
   if (loss == "leastsquares") {
 
     yfitted <- Kdat$K %*% coefhat
-    yfitted <- yfitted * y.init.sd + y.init.mean
+    #yfitted <- yfitted * y.init.sd + y.init.mean PM: I have removed scaling of the data.
     
   } else {
 

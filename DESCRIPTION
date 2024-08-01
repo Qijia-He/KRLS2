@@ -1,9 +1,9 @@
 Package: KRLS2
 Type: Package
 Title: Kernel-based Regularized Least squares
-Version: 1.1.1
+Version: 1.1.2
 Date: 2018-02-08
-Author: Jens Hainmueller (Stanford) Chad Hazlett (UCLA) Luke Sonnet (UCLA) (forked by Xinkun Nie with minor changes, further forked by Paweł Morzywołek to remove the pre-scaling of the data in the function krls2.R)
+Author: Jens Hainmueller (Stanford) Chad Hazlett (UCLA) Luke Sonnet (UCLA) (forked by Xinkun Nie with minor changes, further forked by Pawel Morzywolek to remove the pre-scaling of the data in the function krls2.R)
 Maintainer: Jens Hainmueller <jhain@stanford.edu> 
 Description: Note: this version of the package is forked by Xinkun Nie with minor fixes to the original packages. Implements Kernel-based Regularized Least Squares (KRLS), a
     machine learning method to fit multidimensional functions y=f(x) for regression

@@ -8,7 +8,7 @@ This package provides methods for fitting flexible functional forms for continuo
 
 You can install the latest version by running:
 ```R
-devtools::install_github('pmorzywolek/KRLS')
+devtools::install_github('Qijia-He/KRLS2')
 ```
 
 ### Troubleshooting installation
